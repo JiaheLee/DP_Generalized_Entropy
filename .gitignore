@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.mplconfig/
+.cache/
+.DS_Store
+
+# Raw CPS files are downloaded from the Census Bureau; see README.
+Data/pppub25.csv
+Data/hhpub25.csv
+Data/ffpub25.csv
+Data/asec_csv_repwgt_2025.*
+Data/pppub25_clean.csv
+Data/hhpub25_clean.csv
+
+# Optional full diagnostics written with --save-details
+**/details/

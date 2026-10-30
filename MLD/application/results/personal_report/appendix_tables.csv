@@ -1,0 +1,25 @@
+section,upper_bound_strategy,metric,value
+sample_and_clipping,,n,107969
+sample_and_clipping,,true_mld,1.4548473647692948
+sample_and_clipping,,n_releases,10000
+sample_and_clipping,,n_bootstrap,2000
+sample_and_clipping,,epsilon_u,0.15
+sample_and_clipping,,threshold_budget_fraction,0.5
+sample_and_clipping,,grid_growth,1.01
+sample_and_clipping,,target_count,107975.66666666667
+sample_and_clipping,,sample_max,3150000.0
+sample_and_clipping,,median_private_u,1396347.5228665187
+sample_and_clipping,,percent_u_below_sample_max,97.25
+sample_and_clipping,,median_clipped_count,17.0
+sample_and_clipping,,median_clipped_percent,0.015745260213579824
+sample_and_clipping,,median_absolute_clipping_error,0.0011782512403915035
+sample_and_clipping,,q95_absolute_clipping_error,0.0018829056469709116
+sample_and_clipping,,bootstrap_sd,0.009069362877749915
+sample_and_clipping,,clipping_error_percent_of_bootstrap_sd,12.991554713089442
+sample_and_clipping,,statistic,MLD
+sample_and_clipping,,sample,personal
+sample_and_clipping,,seed,123
+oracle_comparison_epsilon2_1,"Private U, epsilon_u=0.15",median_absolute_error,0.0019822907937477874
+oracle_comparison_epsilon2_1,Observed U=max(X),median_absolute_error,0.00343499466787911
+oracle_comparison_epsilon2_1,"Private U, epsilon_u=0.15",q95_absolute_error,0.022679497170355563
+oracle_comparison_epsilon2_1,Observed U=max(X),q95_absolute_error,0.04374659591463577
